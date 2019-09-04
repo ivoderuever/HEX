@@ -1,0 +1,39 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+body div {
+  width: 250px;
+  height: 300px;
+  background-color: #2e2e2e;
+  text-align: center;
+  padding: 20px;
+  margin: 50px auto 0px auto;
+}
+
+body div .img {
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/img/1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+
+body div h1 {
+  margin-bottom: 0;
+}
+
+body div p {
+  padding-top: 5px;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

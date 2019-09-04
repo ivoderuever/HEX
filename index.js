@@ -44,3 +44,20 @@ bot.on('message', message => {
 });
 
 bot.login(token);
+
+
+var express = require('express');
+
+var app = express();    
+
+var server = app.listen(8000, function(){
+    console.log('listening');
+});
+
+//statis files
+
+app.use(express.static('public'));
+
+app.get('*', function(req, res){
+  res.redirect('/')
+});
